@@ -1,5 +1,6 @@
 const drumKitPartsList = document.querySelector("figure");
-// console.log(drumKitPartsList);
+const instructions = document.getElementById("instructions");
+const bassPedal = document.getElementById("bass-pedal");
 
 drumKitPartsList.addEventListener("click", (event) => {
   console.log(`${event.target.textContent}`);
@@ -30,10 +31,16 @@ drumKitPartsList.addEventListener("click", (event) => {
       sound.play();
       break;
     case "Bass Pedal":
-
-
-
-    break;
+      instructions.textContent = "Seriously......it's a pedal !";
+      instructions.style.marginLeft = "275px";
+      bassPedal.children[0].style.opacity = "1";
+      setTimeout(() => {
+        instructions.textContent =
+          "Click on the labels to hear the different sounds from the drumkit";
+        instructions.style.marginLeft = "20px";
+        bassPedal.children[0].style.opacity = "0";
+      }, 3000);
+      break;
     case "Snare Drum":
       sound = new Audio("./sounds/snare_drum.wav");
       sound.play();

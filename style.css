@@ -65,3 +65,11 @@ figure button {
   font-family: Arial, Helvetica, sans-serif;
   font-style: italic;
 }
+#bass-pedal img {
+  position: absolute;
+  width: 200px;
+  top: 650px;
+  margin-left: 300px;
+  opacity: 0;
+  transition: all 1s;
+}
