@@ -1,0 +1,53 @@
+figure {
+  background-image: url(./images/Parts-of-a-drum-set.webp);
+  background-repeat: no-repeat;
+  background-position: top left;
+  height: 750px;
+}
+figure button {
+  position: absolute;
+  width: 109px;
+  height: 32px;
+  opacity: 150%;
+}
+
+#high-tom {
+  left: 265px;
+  top: 69px;
+}
+#medium-tom {
+  left: 437px;
+  top: 69px;
+}
+#crash-cymbal {
+  left: 57px;
+  top: 179px;
+}
+#hi-hats {
+  left: 69px;
+  top: 257px;
+}
+#ride-cymbal {
+  left: 629px;
+  top: 186px;
+}
+#bass-drum {
+  left: 658px;
+  top: 249px;
+}
+#snare-drum {
+  left: 107px;
+  top: 464px;
+}
+#base-pedal {
+  left: 242px;
+  top: 489px;
+}
+#stool {
+  left: 408px;
+  top: 489px;
+}
+#floor-tom {
+  left: 573px;
+  top: 460px;
+}
